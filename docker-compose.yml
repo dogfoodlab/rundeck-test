@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+
+  rundeck:
+    restart: "no"
+    image: rundeck/rundeck:3.1.2
+    ports:
+      - "4440:4440"
+    environment:
+      - RUNDECK_GRAILS_URL=http://localhost:4440
