@@ -1,0 +1,14 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 073d3026-9887-4d44-8504-ecec0fee9cbc
+  loglevel: INFO
+  name: job01
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: ifconfig
+    keepgoing: false
+    strategy: node-first
+  uuid: 073d3026-9887-4d44-8504-ecec0fee9cbc

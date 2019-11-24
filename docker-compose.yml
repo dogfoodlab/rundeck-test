@@ -9,3 +9,4 @@ services:
       - "4440:4440"
     environment:
       - RUNDECK_GRAILS_URL=http://localhost:4440
+      - RUNDECK_API_TOKENS_DURATION_MAX=0

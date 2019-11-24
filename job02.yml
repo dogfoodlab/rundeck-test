@@ -1,0 +1,19 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: d4aadb0c-2d50-4891-a3e3-2316bda21715
+  loglevel: INFO
+  name: job02
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - script: |2+
+
+        ls
+
+        ls -al
+
+    keepgoing: false
+    strategy: node-first
+  uuid: d4aadb0c-2d50-4891-a3e3-2316bda21715
